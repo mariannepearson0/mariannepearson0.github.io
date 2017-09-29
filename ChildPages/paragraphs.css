@@ -1,0 +1,16 @@
+html,
+body{
+    margin:auto;
+    width: 80%;
+    height: 80%;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+p{
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #83177D;
+    font-size: 18pt;
+}
+button{
+    font-size: 14pt;
+}

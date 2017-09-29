@@ -1,0 +1,23 @@
+html,
+body{
+    margin:auto;
+    width: 80%;
+    height: 80%;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.pfizz{
+    font-weight: bold;
+    color: #F70606;
+}
+.pbuzz{
+    font-weight: bold;
+    color: #20B313;
+}
+.pfizzbuzz{
+    font-weight: bold;
+    font-size: 16pt;
+    border-bottom: 5px dotted #FFFB00;
+    color: #2A55E4;
+
+}

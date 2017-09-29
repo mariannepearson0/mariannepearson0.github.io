@@ -1,0 +1,25 @@
+﻿html,
+body {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-image: url("C: \Users\marianne\Documents\Superman.png");
+}
+p{
+    font-size: 14pt;
+}
+.maint{
+    font-size: 18pt;
+    font-weight: bold;
+    color: #0b175c;
+}
+.middlet {
+    color: #1c599b;
+}
+.finalt{
+    color: #509c9c
+}
+button{
+    font-size: 14pt;
+}
