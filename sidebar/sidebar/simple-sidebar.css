@@ -7,6 +7,9 @@
 body {
     overflow-x: hidden;
 }
+ul{
+    font-size: 14pt;
+}
 
 #wrapper {
     padding-left: 0;
@@ -60,6 +63,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    font-size: 14pt;
 }
 
 .sidebar-nav li {
