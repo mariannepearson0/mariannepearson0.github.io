@@ -5,6 +5,7 @@ body {
     height: 80%;
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-image: url("C: \Users\marianne\Documents\Superman.png");
+    text-align: center;
 }
 p{
     font-size: 14pt;
@@ -22,4 +23,7 @@ p{
 }
 button{
     font-size: 14pt;
+}
+.members{
+    float: left;
 }

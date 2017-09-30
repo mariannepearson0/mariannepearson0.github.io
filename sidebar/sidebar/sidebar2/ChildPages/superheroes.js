@@ -20,8 +20,7 @@ function superherofiles() {
                       document.getElementById("p3").innerHTML += `${memberInfo}: ${powers[i]} <br/>`;
                   } else {
                       document.getElementById("p3").innerHTML += `${powers[i]} <br/>`;
-                  }
-                  
+                  }            
               }
               document.getElementById("p3").innerHTML += `<br/>`
             } else {
