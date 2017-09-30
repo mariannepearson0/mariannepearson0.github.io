@@ -187,6 +187,7 @@ hr.small {
 }
 
 
+
 /* Services */
 
 .services {
@@ -210,6 +211,11 @@ hr.small {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.mepics{
+    padding: 20px;
+    align-content: center;
 }
 
 
@@ -265,7 +271,7 @@ hr.small {
 footer {
     position: top;
     padding: 100px 0;
-    height: 30%;
+    height: 45%;
     background: url(../img/bg5.jpg) no-repeat center center scroll;
     color: #ffffff;
 }
@@ -276,5 +282,5 @@ footer {
     right: 5px;
     bottom: 5px;
     display: none;
-    padding: 15px 20px;
+
 }
