@@ -1,0 +1,36 @@
+<html>
+        <head>
+                <title>VIRTUAL GARAGE</title>
+                <script src="garage.js" type = "text/javascript"></script>
+                <meta charset="UTF-8">
+                <link href = "garage.css" rel="stylesheet">
+            </head>
+
+        <body>
+        <h1 class = "head">
+            Virtual Garage
+        </h1>
+        
+        <label>Enter Name: </label><br/>
+        <input type = "text" id="towner" class="tb"></input><br/><br/>
+        <label>Enter Registration Number: </label><br/>
+        <input type = "text" id="tregno" class = "tb"></input><br/><br/>
+        <label>Enter Car Make: </label><br/>       
+        <input type = "text" id="tmake" class = "tb"></input><br/><br/>
+        <label>Enter Time Taken: </label><br/>
+        <input type = "text" id="ttime" class = "tb"></input><br/><br/>
+        <label>Enter number of faults: </label><br/><br/>
+        <input type = "text" id="tfault" class= "tb"></input><br/><br/>
+        <label>Enter Registration Number to Check in or out: <output></output></label><br/>
+        <input type = "text" id="tcheckout" class = "tb"></input><br/><br/>
+        <button type = "button" id="bcontents" onclick="garagecontents(garage)" class = "but"> Contents of Garage</input><br/><br/>
+        <button type = "button" id="bcheckin" onclick="checkin(garage)" class = "but" > Check in</input><br/><br/> 
+        <button type = "button" id="bfix" onclick="fix()" class = "but">Fix</button><br/><br/>
+        <button type = "button" id="bcheckout" onclick="checkout(garage)" class = "but"> Check out</input><br/><br/>   
+        <button type = "button" id="bbill" onclick="calculatebill(garage)" class = "but"> Calculate Bill</input><br/><br/>
+        <p id=pgarage class = "pout"></p>
+        
+
+    </body>
+
+</html>
