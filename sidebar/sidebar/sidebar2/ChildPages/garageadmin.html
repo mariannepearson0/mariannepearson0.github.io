@@ -11,6 +11,14 @@
     <h1 class="head">
         Virtual Garage Admin Interface
     </h1>
+    <p>Commands for virtual garage console: <br><br>
+       contents : prints the current contents of the garage<br>
+       check_in owner reg_no make time_in_garage number_of_faults : using the command check_in and providing
+       the 5 parameters will create a car with these attributes<br>
+       fix reg_no : use the fix command and give the registration number of the car to fix<br>
+       check_out reg_no : remove the car with the given registration number from the garage<br>
+       bill reg_no : calculate and print the bill for the given registration number  
+    </p>
 
     <label>Enter Commands: </label><br/>
     <input type="text" id="commandline" class="tb" onkeyup="checkText(event)" on></input><br/><br/>
