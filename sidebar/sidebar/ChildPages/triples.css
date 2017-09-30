@@ -9,6 +9,7 @@ body{
 header{
     background-image: url("triplepuppy.jpg")
 }
+
 p{
     font-size: 18pt;
     border: #A70E62;
@@ -17,9 +18,23 @@ p{
     margin-right: 30%;
     margin-left: 30%;   
 }
+.pdescription{
+    font-size: 14pt;
+    border: #ffffff;
+}
 button{
     font-size: 14pt;
 }
 input{
     font-size: 14pt;
+}
+#parent {
+    width: 100%;
+    margin-left: 30%;
+    margin-right: 50%;
+}
+
+.image {
+    float: left;
+    width: 300px;
 }
